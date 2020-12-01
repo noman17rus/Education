@@ -5,7 +5,13 @@ package Initialization;
  */
 
 public class InitialValues {
-    public static void main(String[] args) {
 
-    }
+    boolean t;
+    byte c;
+    short s;
+    int i;
+    long l;
+    float f;
+    double d;
+    InitialValues reference;
 }
