@@ -28,6 +28,7 @@ class Cups {
 /**
  * Задание из учебника стр.172
  */
+
 class TheTask{
     static String str;
     static {
@@ -48,7 +49,7 @@ public class ExplicitStatic {
 
     public static void main(String[] args) {
         System.out.println("Внутри метода main ");
-        //Cups.cup1.f(99); //(1)
+        Cups.cup1.f(99); //(1)
         TheTask.f3("wear");
     }
     //static Cups cups1 = new Cups(); //2
